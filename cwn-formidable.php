@@ -7,7 +7,7 @@ add_action('frm_date_field_js', 'cowork_limit_my_date_field');
 
 function cowork_limit_my_date_field($field_id){
 
-  if ($field_id == 'field_event-date5') { //change FIELDKEY to the key of your date field
+  if ($field_id == 'field_event-date5') {
     
      // echo ',defaultDate:"2016-11-05"'; // ,minDate:0,maxDate:+6
      

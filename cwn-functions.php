@@ -1,11 +1,13 @@
 <?php
-/*
-Plugin Name: Coworking Neuchatel Functions
-Plugin URI: https://coworking-neuchatel.ch
-Description: This plugin adds functionality to the Coworking Neuchatel website.
-Version: 0.0.2
-Author: Manuel Schmalstieg
-Author URI: http://ms-studio.net
+/**
+ * Plugin Name: Coworking Neuchatel Functions
+ * Plugin URI: https://coworking-neuchatel.ch
+ * Description: This plugin adds functionality to the Coworking Neuchatel website.
+ * Version: 0.0.3+build20181106
+ * Author: Manuel Schmalstieg
+ * Author URI: http://ms-studio.net
+ * License: GPL-2.0+
+ * License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 */
 
 
