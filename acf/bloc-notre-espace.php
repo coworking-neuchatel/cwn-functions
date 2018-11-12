@@ -6,12 +6,13 @@ if( function_exists('acf_add_local_field_group') ):
 
 /*
  Comporte:
- 1) Image de couverture (menu mobile)
- 2) Couverture carte google
- 3) Carte Google
- 4) Visite 3D
- 5) images (galerie)
- 6) Lien formulaire (cible bouton)
+ * Image de couverture (menu mobile)
+ * Couverture carte google
+ * Carte Google
+ * Couverture Visite 3D
+ * Visite 3D
+ * images (galerie)
+ * Lien formulaire (cible bouton)
 */
 
 
@@ -24,7 +25,7 @@ if( function_exists('acf_add_local_field_group') ):
 				'label' => 'couverture',
 				'name' => 'notre_espace_cover',
 				'type' => 'image',
-				'instructions' => 'La première image qui apparaît',
+				'instructions' => 'La première image qui apparaît en vue mobile',
 				'required' => 0,
 				'conditional_logic' => 0,
 				'wrapper' => array(
@@ -48,7 +49,7 @@ if( function_exists('acf_add_local_field_group') ):
 				'label' => 'couverture carte google',
 				'name' => 'carte_google_cover',
 				'type' => 'image',
-				'instructions' => 'La première image qui apparaît',
+				'instructions' => 'Image accompagnant la carte Google',
 				'required' => 0,
 				'conditional_logic' => 0,
 				'wrapper' => array(
@@ -87,11 +88,35 @@ if( function_exists('acf_add_local_field_group') ):
 				'new_lines' => '',
 			),
 			array(
+				'key' => 'field_da273a03eddfbe222',
+				'label' => 'couverture visite 3D',
+				'name' => 'visite_3d_cover',
+				'type' => 'image',
+				'instructions' => 'Image conduisant vers la visite 3D',
+				'required' => 0,
+				'conditional_logic' => 0,
+				'wrapper' => array(
+					'width' => '',
+					'class' => '',
+					'id' => '',
+				),
+				'return_format' => 'id',
+				'preview_size' => 'thumbnail',
+				'library' => 'all',
+				'min_width' => '',
+				'min_height' => '',
+				'min_size' => '',
+				'max_width' => '',
+				'max_height' => '',
+				'max_size' => '',
+				'mime_types' => '',
+			),
+			array(
 				'key' => 'field_5b486a0c305a2',
 				'label' => 'visite 3D',
 				'name' => 'visite_3d',
 				'type' => 'textarea',
-				'instructions' => '',
+				'instructions' => 'Lien vers visite 3D',
 				'required' => 0,
 				'conditional_logic' => 0,
 				'wrapper' => array(
@@ -100,7 +125,7 @@ if( function_exists('acf_add_local_field_group') ):
 					'id' => '',
 				),
 				'default_value' => '',
-				'placeholder' => '',
+				'placeholder' => 'https://my.matterport.com/',
 				'maxlength' => '',
 				'rows' => '',
 				'new_lines' => '',
@@ -153,15 +178,6 @@ if( function_exists('acf_add_local_field_group') ):
 				'multiple' => 0,
 			),
 		),
-//		'location' => array(
-//			array(
-//				array(
-//					'param' => 'post',
-//					'operator' => '==',
-//					'value' => '2064',
-//				),
-//			),
-//		),
 		'location' => array(
 				array(
 					array(
