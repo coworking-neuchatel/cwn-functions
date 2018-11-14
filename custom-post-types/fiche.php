@@ -54,7 +54,7 @@ $args = array(
 	'exclude_from_search' => false,
 	'publicly_queryable'  => true,
 	'query_var'          => true,
-	'rewrite'            => array( 'slug' => 'portrait' ),
+	'rewrite'            => array( 'slug' => 'membres' ),
 	'capability_type'     => 'post',
 );
 register_post_type( 'cwn_fiche', $args );
