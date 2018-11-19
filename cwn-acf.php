@@ -10,3 +10,6 @@ include_once (plugin_dir_path(__FILE__).'acf/bloc-trio.php');
 
 // champs Livres
 include_once (plugin_dir_path(__FILE__).'acf/books.php');
+
+// champs Fiches membres
+include_once (plugin_dir_path(__FILE__).'acf/fiches.php');
