@@ -3,8 +3,6 @@
 // Déclaration des champs ACF
 
 if( function_exists('acf_add_local_field_group') ):
-
-	if( function_exists('acf_add_local_field_group') ):
 	
 	acf_add_local_field_group(array(
 		'key' => 'group_5587f0b96b612',
@@ -71,7 +69,5 @@ if( function_exists('acf_add_local_field_group') ):
 		'active' => 1,
 		'description' => '',
 	));
-	
-	endif;
-	
+		
 endif;
