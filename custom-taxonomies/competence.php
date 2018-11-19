@@ -13,7 +13,7 @@ register_taxonomy( 'cwn_competence',
  		'label' => 'Domaines de compétence',
  		'labels'  => array(
  			'name'                => _x( 'Domaines de compétence', 'taxonomy general name' ),
- 			'singular_name'       => _x( 'Domaine de compétence', 'taxonomy singular name' ),
+ 			'singular_name'       => _x( 'Compétence', 'taxonomy singular name' ),
  			'search_items'        => __( 'Chercher parmi les domaines' ),
  			'popular_items'              => __( 'Les plus utilisés' ),
  					'all_items'                  => __( 'Tous les domaines' ),
@@ -32,7 +32,7 @@ register_taxonomy( 'cwn_competence',
  		'show_ui' => true,
  		'query_var' => true,
  		'rewrite' => array('slug' => 'competence'),
- 		'singular_label' => 'Domaine de compétence') 
+ 		'singular_label' => 'Compétence') 
 );
 
 register_taxonomy(
