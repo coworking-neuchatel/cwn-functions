@@ -10,7 +10,7 @@
 // Fiches personnelles
 
 $labels = array(
-	'name'                => _x( 'Fiches', 'Post Type General Name', 'edin' ),
+	'name'                => _x( 'Membres', 'Post Type General Name', 'edin' ), // NB: sera affiché dans balise Titre
 	'singular_name'       => _x( 'Fiche', 'Post Type Singular Name', 'edin' ),
 	'menu_name'           => __( 'Fiches', 'edin' ),
 	'name_admin_bar'      => __( 'Fiche', 'edin' ),
