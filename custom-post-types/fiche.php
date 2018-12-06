@@ -38,7 +38,7 @@ $args = array(
 			'custom-fields',
 			'revisions',
 			// 'thumbnail',
-			// 'author',
+			'author',
 		),
 	'taxonomies'          => array( 'cwn_competence' ),
 	'hierarchical'        => false,
