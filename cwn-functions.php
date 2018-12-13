@@ -3,7 +3,7 @@
  * Plugin Name: Coworking Neuchatel Functions
  * Plugin URI: https://coworking-neuchatel.ch
  * Description: This plugin adds functionality to the Coworking Neuchatel website.
- * Version: 0.0.3+build20181106
+ * Version: 0.0.4+build20181213
  * Author: Manuel Schmalstieg
  * Author URI: http://ms-studio.net
  * License: GPL-2.0+
@@ -25,9 +25,6 @@ include_once (plugin_dir_path(__FILE__).'cwn-acf.php');
 
 // Jetpack
 include_once (plugin_dir_path(__FILE__).'cwn-jetpack.php');
-
-// Daily Email
-include_once (plugin_dir_path(__FILE__).'cwn-dailymail.php');
 
 // Shortcodes
 include_once (plugin_dir_path(__FILE__).'cwn-shortcodes.php');
