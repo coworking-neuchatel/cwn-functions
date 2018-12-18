@@ -27,6 +27,10 @@ $labels = array(
 	'not_found_in_trash'  => __( 'Aucun résultat dans la corbeille', 'edin' ),
 );
 
+$capabilities = array(
+ 	'edit_published_posts'  => 'edit_posts',					
+);
+
 $args = array(
 	'label'               => __( 'Fiches', 'edin' ),
 	'description'         => __( 'Les fiches personnelles', 'edin' ),
@@ -55,6 +59,9 @@ $args = array(
 	'publicly_queryable'  => true,
 	'query_var'          => true,
 	'rewrite'            => array( 'slug' => 'membres' ),
-	'capability_type'     => 'post',
+	'map_meta_cap'       => true, // Default: null
+	'capability_type'    => 'post',
+	'capabilities'          => $capabilities,
 );
 register_post_type( 'cwn_fiche', $args );
+
