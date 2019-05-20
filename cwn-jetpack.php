@@ -27,7 +27,9 @@
   
   
   function prefix_kill_all_the_jetpacks( $modules ) {
+  
   	// A list of Jetpack modules which are allowed to activate.
+  
   	$whitelist = array(
   //		'after-the-deadline',
   		'carousel',
@@ -42,6 +44,7 @@
 //  		'json-api',
 //  		'latex',
 //  		'likes',
+		'lazy-images',
  		'markdown',
 //  		'minileven', = Theme pour portables
 //  		'mobile-push',
