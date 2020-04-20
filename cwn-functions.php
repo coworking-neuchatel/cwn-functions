@@ -31,3 +31,6 @@ include_once (plugin_dir_path(__FILE__).'cwn-shortcodes.php');
 
 // Formidable
 include_once (plugin_dir_path(__FILE__).'cwn-formidable.php');
+
+// Tidio
+include_once (plugin_dir_path(__FILE__).'cwn-tidio.php');
