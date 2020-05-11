@@ -11,11 +11,11 @@ function cwn_custom_post_type() {
 	
 	// Blocs 
 	
-	include_once (plugin_dir_path(__FILE__).'custom-post-types/bloc.php');
+	// include_once (plugin_dir_path(__FILE__).'custom-post-types/bloc.php');
 	
 	// Livres
 
-	include_once (plugin_dir_path(__FILE__).'custom-post-types/book.php');
+	 include_once (plugin_dir_path(__FILE__).'custom-post-types/book.php');
 	
 	// Témoignages
 	
